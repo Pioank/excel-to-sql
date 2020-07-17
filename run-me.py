@@ -3,9 +3,6 @@ import pandas as pd
 from pandas import DataFrame
 import pandas.io.sql as psql
 
-
-
-
 df = pd.read_excel('list-sql.xlsx')  
 df = df['Target-Convert']
 df=df.tolist()
